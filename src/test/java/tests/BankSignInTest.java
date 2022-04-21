@@ -24,11 +24,11 @@ public class BankSignInTest extends TestBaseSignIn {
         signInPage.clickRegisterLink();
         signInPage.setFirstNameTextBox("john");
         signInPage.setLastNameTextBox("j");
-        signInPage.setAddressTextBox("Amsterdamstraat");
-        signInPage.setCityTextBox("Haarlem");
-        signInPage.setStateTextBox("North Holland");
-        signInPage.setZipCodeTextBox("2032PS");
-        signInPage.setPhoneTextBox("0649588426");
+        signInPage.setAddressTextBox("abcStreet");
+        signInPage.setCityTextBox("city");
+        signInPage.setStateTextBox("state");
+        signInPage.setZipCodeTextBox("462121");
+        signInPage.setPhoneTextBox("12345678");
         signInPage.setSsnTextBox("123");
         signInPage.setUserTextBox("johnTest" + new Random().nextInt());
         signInPage.setPasswordTextBox("demo");
